@@ -1108,7 +1108,7 @@ button:focus {
 .mu-sponsors-single {
 	background: #eee;
 	display: inline;
-	float: left;
+	float: none;
 	margin-top: 10px;
 	margin-bottom: 15px;
 	width: 100%;
@@ -1220,7 +1220,8 @@ button:focus {
 .mu-social-media a {
 	border: 1px solid #19191a;
 	border-radius: 50px;
-	color: #19191a;
+	/* color: #19191a; */
+	color: hotpink;
 	display: inline-block;
 	font-size: 12px;
 	margin-right: 10px;

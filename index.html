@@ -7,7 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Hacktoberfest'20 | COSC</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/icon" href="assets/images/logo_cosc.png"/>
+    <link rel="shortcut icon" type="image/icon" href="assets/images/favicon.ico"/>
     <!-- Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     <!-- Bootstrap -->
@@ -54,7 +54,7 @@
 
 			      <!-- Logo -->
 			      <!-- <a class="navbar-brand" href="index.html">Eventoz</a> -->
-            <p class="navbar-brand"><a href="https://hacktoberfest.digitalocean.com/"><img src="assets/images/hacktoberfest-H-logo.jpeg" width="30px" height="30px"></a> | <a href="index.html"><img src="assets/images/logo_cosc.png" width="30px" height="30px"></a></p>
+            <p class="navbar-brand"><a href="https://hacktoberfest.digitalocean.com/"><img src="assets/images/hacktoberfest-H-logo.jpeg" width="30px" height="30px"></a> | <a href="https://cosc.cbit.ac.in/"><img src="assets/images/logo_cosc.png" width="30px" height="30px"></a></p>
 
 
 			    </div>
@@ -63,9 +63,9 @@
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      	<ul class="nav navbar-nav mu-menu navbar-right">
 			      		<li><a href="#mu-hero">Home</a></li>
-				        <li><a href="#mu-about">About Us</a></li>
+				        <li><a href="#mu-about">About</a></li>
 				        <li><a href="#mu-schedule">Schedule</a></li>
-			            <li><a href="#mu-speakers">Speakers</a></li>
+			            <li><a href="#mu-speakers">Mentors</a></li>
 			            <!-- <li><a href="#mu-pricing">Price</a></li>
 			            <li><a href="#mu-register">Register</a></li> -->
 			            <li><a href="#mu-sponsors">Sponsors</a></li>
@@ -76,13 +76,39 @@
 		</nav>
 		<!-- End menu -->
 
-		<div class="mu-hero-overlay" id="website-banner">
+		<div class="mu-hero-overlay">
 			<div class="container">
-        <img id="banner-image" src="assets/images/banner.svg" width="80%">
-        <h3 class="divbanner"><i class="fa fa-calendar"> 30 - 31 October, 2020</i></h3>
-        <div>
-          <button id="banner-button" onclick="window.location.href = 'https://forms.gle/eGniZY5VgFoFsmWK9'"> <strong>Register Now!</strong> </button>
-        </div>
+				<div class="mu-hero-area">
+
+					<!-- Start hero featured area -->
+					<div class="mu-hero-featured-area">
+						<!-- Start center Logo -->
+						<div class="mu-logo-area">
+							<!-- text based logo -->
+              <img src="assets/images/logo_cosc.png" alt="logo" width="100px" height="100px">
+							<!-- <a class="mu-logo" href="#">Eventoz</a> -->
+							<!-- image based logo -->
+							<!-- <a class="mu-logo" href="#"><img src="assets/images/logo.jpg" alt="logo img"></a> -->
+						</div>
+						<!-- End center Logo -->
+
+						<div class="mu-hero-featured-content">
+
+							<h1>Welcome to CBIT Hacktoberfest 2020</h1>
+							<h2>Random tagline.</h2>
+							<h3><p class="mu-event-date-line"><i class="fa fa-calendar"> 30 - 31 October, 2020.</i></p></h3>
+
+							<div class="mu-event-counter-area">
+								<div id="mu-event-counter">
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<!-- End hero featured area -->
+
+				</div>
 			</div>
 		</div>
 	</header>
@@ -100,20 +126,17 @@
 							<div class="row">
 								<div class="col-md-6">
 									<div class="mu-about-left">
-										<img class="" src="assets/images/about.jpg" alt="Men Speaker">
+										<img class="" src="assets/images/24hr.png" width="350px" height="350px" alt="Men Speaker">
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="mu-about-right">
 										<h2>About</h2>
 										<p>
-                    Hacktober fest is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Twilio. As a part of this virtual festival event,
-                     CBIT has decided to host a 24-hour hackathon, CBIT HACKTOBERFEST 2020 on 30-31 October 2020 with an objective of resolving the real world problems in a
-                     smart way by using the available technologies and thereby making life easier. The aim of this hackathon is to bring a positive impact in the society.
-
+                      Hacktoberfest, the month-long festival of supporting and contributing to open-source, is back again this year. And, We are excited to share with you guys that CBIT will be hosting a 24-hour online hackathon as part of it, called CBIT Hacktoberfest Hackathon. Hacktoberfest is a virtual festival to celebrate open source contributions presented by DigitalOcean, Intel and DEV. It is the easiest way to get into open source! We are hosting the Hacktoberfest on the 30th and 31st of October 2020.
                     </p>
                     <p>
-                      Please read our <a href="https://docs.google.com/document/d/1gFKOhyUqMZzrZcbq8A_TpO5x9J9HK6agv70awCH8pyI/edit" style="color:hotpink"><u>Events Code of Conduct</u></a> before attending. Happy Hacking!
+                      Please read our <a href="https://docs.google.com/document/d/1gFKOhyUqMZzrZcbq8A_TpO5x9J9HK6agv70awCH8pyI/edit" style="color:hotpink"><u>Events Code of Conduct</u></a> before attending. Happy Hacking!”
                     </p>
 									</div>
 								</div>
@@ -127,7 +150,32 @@
 		</section>
 		<!-- End About -->
 
+		<!-- Start Video -->
+		<section id="mu-video">
+			<div class="mu-video-overlay">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="mu-video-area">
+								<!-- <h2>Watch Previous Event Video</h2>
+								<a class="mu-video-play-btn" href=""><i class="fa fa-play" aria-hidden="true"></i></a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
+			<!-- Start Video content -->
+			<div class="mu-video-content">
+				<div class="mu-video-iframe-area">
+					<a class="mu-video-close-btn" href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+					<iframe width="854" height="480" src="https://www.youtube.com/embed/n9AVEl9764s" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+			<!-- End Video content -->
+
+		</section>
+		<!-- End Video -->
 
 		<!-- Start Schedule  -->
 		<section id="mu-schedule">
@@ -138,15 +186,14 @@
 
 							<div class="mu-title-area">
 								<h2 class="mu-title">Schedule Detail</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
 							</div>
 
 							<div class="mu-schedule-content-area">
 								<!-- Nav tabs -->
 								<ul class="nav nav-tabs mu-schedule-menu" role="tablist">
-								    <li role="presentation" class="active"><a href="#first-day" aria-controls="first-day" role="tab" data-toggle="tab">1 Day / 19 Feb</a></li>
-								    <li role="presentation"><a href="#second-day" aria-controls="second-day" role="tab" data-toggle="tab">2 Day / 20 Feb</a></li>
-								    <li role="presentation"><a href="#third-day" aria-controls="third-day" role="tab" data-toggle="tab">3 Day / 21 Feb</a></li>
+								    <li role="presentation" class="active"><a href="#first-day" aria-controls="first-day" role="tab" data-toggle="tab">Day 1 / 30 Oct</a></li>
+								    <li role="presentation"><a href="#second-day" aria-controls="second-day" role="tab" data-toggle="tab">Day 2 / 31 Oct</a></li>
+
 
 								</ul>
 
@@ -156,38 +203,34 @@
 								    	<ul>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">9.00 AM</p>
-								    				<h3>Breakfast</h3>
+                            <img src="assets/images/star.png" alt="inaugral">
+								    				<p class="mu-event-time">4:00 PM</p>
+								    				<h3>Inaugral Ceremony</h3>
+                            <br>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-1.jpg" alt="event speaker">
-								    				<p class="mu-event-time">10.00 AM</p>
-								    				<h3>Advanced SVG Animations</h3>
-								    				<span>By Karl Groves</span>
+								    				<img src="assets/images/pull.png" alt="GitHub Intro">
+								    				<p class="mu-event-time">5:00 PM</p>
+								    				<h3>Introduction to Git and GitHub. (Workshop)</h3>
+								    				<span>By XXXX</span>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-2.jpg" alt="event speaker">
-								    				<p class="mu-event-time">11.00 AM</p>
-								    				<h3>Presenting Work with Confidence</h3>
-								    				<span>By Sarah Dransner</span>
+								    				<img src="assets/images/ps.png" alt="Problem Selection">
+								    				<p class="mu-event-time">6:00 PM</p>
+								    				<h3>Problem Statement Selection</h3>
+                            <br>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-3.jpg" alt="event speaker">
-								    				<p class="mu-event-time">12.00 AM</p>
-								    				<h3>Keynote on UX & UI Design</h3>
-								    				<span>By Ned Stark</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">1.00 PM</p>
-								    				<h3>The End</h3>
+								    				<img src="assets/images/code.png" alt="</>">
+								    				<p class="mu-event-time">6:45 PM</p>
+								    				<h3>Coding Starts</h3>
+                            <br>
 								    			</div>
 								    		</li>
 								    	</ul>
@@ -196,78 +239,26 @@
 								    	<ul>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">9.00 AM</p>
-								    				<h3>Breakfast</h3>
+                            <img src="assets/images/code.png" alt="</>">
+								    				<p class="mu-event-time">11:30 AM</p>
+								    				<h3>Coding Starts</h3>
+                            <br>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-1.jpg" alt="event speaker">
-								    				<p class="mu-event-time">10.00 AM</p>
-								    				<h3>Advanced SVG Animations</h3>
-								    				<span>By Karl Groves</span>
+								    				<img src="assets/images/presentation.png" alt="event speaker">
+								    				<p class="mu-event-time">12:00 PM</p>
+								    				<h3>Presentations Start</h3>
+                            <br>
 								    			</div>
 								    		</li>
 								    		<li>
 								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-2.jpg" alt="event speaker">
-								    				<p class="mu-event-time">11.00 AM</p>
-								    				<h3>Presenting Work with Confidence</h3>
-								    				<span>By Sarah Dransner</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-3.jpg" alt="event speaker">
-								    				<p class="mu-event-time">12.00 AM</p>
-								    				<h3>Keynote on UX & UI Design</h3>
-								    				<span>By Ned Stark</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">1.00 PM</p>
-								    				<h3>The End</h3>
-								    			</div>
-								    		</li>
-								    	</ul>
-								    </div>
-								    <div role="tabpanel" class="tab-pane fade mu-event-timeline" id="third-day">
-								    	<ul>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">9.00 AM</p>
-								    				<h3>Breakfast</h3>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-1.jpg" alt="event speaker">
-								    				<p class="mu-event-time">10.00 AM</p>
-								    				<h3>Advanced SVG Animations</h3>
-								    				<span>By Karl Groves</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-2.jpg" alt="event speaker">
-								    				<p class="mu-event-time">11.00 AM</p>
-								    				<h3>Presenting Work with Confidence</h3>
-								    				<span>By Sarah Dransner</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<img src="assets/images/speaker-3.jpg" alt="event speaker">
-								    				<p class="mu-event-time">12.00 AM</p>
-								    				<h3>Keynote on UX & UI Design</h3>
-								    				<span>By Ned Stark</span>
-								    			</div>
-								    		</li>
-								    		<li>
-								    			<div class="mu-single-event">
-								    				<p class="mu-event-time">1.00 PM</p>
-								    				<h3>The End</h3>
+								    				<img src="assets/images/trophy.png" alt="Resuls">
+								    				<p class="mu-event-time">4:00 PM</p>
+								    				<h3>Results</h3>
+                            <br>
 								    			</div>
 								    		</li>
 								    	</ul>
@@ -293,7 +284,6 @@
 
 							<div class="mu-title-area">
 								<h2 class="mu-title">Our Speakers</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
 							</div>
 
 							<!-- Start Speakers Content -->
@@ -556,19 +546,19 @@
 							<div class="mu-sponsors-content">
 								<div class="row">
 
-									<div class="col-md-2 col-sm-4 col-xs-4">
+									<div class="col-md-6 col-sm-12 col-xs-4">
 										<div class="mu-sponsors-single">
 											<img src="assets/images/sponsor-logo-1.png" alt="Brand Logo">
 										</div>
 									</div>
 
-									<div class="col-md-2 col-sm-4 col-xs-4">
+									<div class="col-md-6 col-sm-12 col-xs-4">
 										<div class="mu-sponsors-single">
 											<img src="assets/images/sponsor-logo-2.png" alt="Brand Logo">
 										</div>
 									</div>
 
-									<div class="col-md-2 col-sm-4 col-xs-4">
+									<!-- <div class="col-md-2 col-sm-4 col-xs-4">
 										<div class="mu-sponsors-single">
 											<img src="assets/images/sponsor-logo-3.png" alt="Brand Logo">
 										</div>
@@ -614,9 +604,9 @@
 										<div class="mu-sponsors-single">
 											<img src="assets/images/sponsor-logo-1.png" alt="Brand Logo">
 										</div>
-									</div>
+									</div> -->
 
-									<div class="col-md-2 col-sm-4 col-xs-4">
+									<!-- <div class="col-md-2 col-sm-4 col-xs-4">
 										<div class="mu-sponsors-single">
 											<img src="assets/images/sponsor-logo-2.png" alt="Brand Logo">
 										</div>
@@ -626,7 +616,7 @@
 										<div class="mu-sponsors-single">
 											<img src="assets/images/sponsor-logo-3.png" alt="Brand Logo">
 										</div>
-									</div>
+									</div> -->
 
 								</div>
 							</div>
@@ -649,37 +639,47 @@
 
 	<!-- Start footer -->
 	<footer id="mu-footer" role="contentinfo">
-    <div class="container">
-      <div class="mu-footer-first">
-        <div class="mu-footer-top">
-          <div>
-            <h2>Contact Us</h2>
-            <br>
-            <a href="https://www.google.com/maps/place/Chaitanya+Bharathi+Institute+of+Technology/@17.3919735,78.3172481,17z/data=!3m1!4b1!4m5!3m4!1s0x3bcb94eba8ad7c87:0xb78f51ed556f7cc5!8m2!3d17.3919735!4d78.3194368"><i class="fa fa-map-marker"> Chaitanya Bharathi Intitute of Technology, Gandipet, Hyderabad</p> </i></a>
-            <br>
-            <p><i class="fa fa-phone"> +91 84669 97201</i></p>
-          </div>
-        </div>
-      </div>
-      <div class="mu-footer-area">
-        <div class="mu-footer-top">
-          <div class="mu-social-media">
-            <a href="https://www.facebook.com/cbitosc/"><i class="fa fa-facebook"></i></a>
-            <a href="https://twitter.com/cbitosc/"><i class="fa fa-twitter"></i></a>
-            <!-- <a href="#"><i class="fa fa-google-plus"></i></a> -->
-            <a href="https://www.instagram.com/cbitosc/"><i class="fa fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/company/cbitosc/"<i class="fa fa-linkedin"></i></a>
-            <a href=""<i class="fa fa-github"><i></a>
-            <!-- <a href="#"><i class="fa fa-youtube"></i></a> -->
-          </div>
-        </div>
-        <div class="mu-footer-bottom">
-          <p>
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | COSC
-          </p>
-        </div>
-      </div>
-    </div>
+    <!-- Start Contact -->
+		<section id="mu-contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="mu-contact-area">
+
+							<div class="mu-title-area">
+								<h2 class="mu-heading-title">Contact Us</h2>
+                <br>
+                <a href="https://www.google.com/maps/place/Chaitanya+Bharathi+Institute+of+Technology/@17.3919735,78.3172481,17z/data=!3m1!4b1!4m5!3m4!1s0x3bcb94eba8ad7c87:0xb78f51ed556f7cc5!8m2!3d17.3919735!4d78.3194368"><i class="fa fa-map-marker"> CBIT, Hyderabad</i></a>
+                <br>
+                <p><i class="fa fa-phone"> +91 xxxxxxxxxx</i></p>
+							</div>
+						 </div>
+						</div>
+							<!-- End Contact Content -->
+						</div>
+					</div>
+		</section>
+		<!-- End Contact -->
+			<div class="container">
+				<div class="mu-footer-area">
+					<div class="mu-footer-top">
+						<div class="mu-social-media">
+							<a href="https://www.facebook.com/cbitosc/"><i class="fa fa-facebook"></i></a>
+							<a href="https://twitter.com/cbitosc/"><i class="fa fa-twitter"></i></a>
+							<!-- <a href="#"><i class="fa fa-google-plus"></i></a> -->
+							<a href="https://www.instagram.com/cbitosc/"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/cbitosc/"<i class="fa fa-linkedin"></i></a>
+              <a href=""<i class="fa fa-github"><i></a>
+							<!-- <a href="#"><i class="fa fa-youtube"></i></a> -->
+						</div>
+					</div>
+					<div class="mu-footer-bottom">
+            <p>
+              Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | COSC
+            </p>
+					</div>
+				</div>
+			</div>
 
 	</footer>
 	<!-- End footer -->
