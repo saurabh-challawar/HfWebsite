@@ -263,7 +263,7 @@ button:focus {
     border-image: initial;
     padding: 10px 20px;
     border-radius: 60px;
-		float: center;
+		float: right;
 		margin-bottom: 5%;
 }
 .mu-logo-area {
