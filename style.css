@@ -1412,6 +1412,10 @@ button:focus {
 		width: 150px;
 	}
 
+/* overriding bootstrap */
+.navbar-toggle{
+	margin-top: 17px;
+}
 
 	.mu-navbar .navbar-toggle .icon-bar {
 		background-color: #fff;
